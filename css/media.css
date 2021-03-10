@@ -488,7 +488,7 @@
       -webkit-transition: all 0.8s ease 0s;
       -o-transition: all 0.8s ease 0s;
       transition: all 0.8s ease 0s;
-      top: 0;
+      top: -4px;
       left: 0;
       background-color: #fff;
       margin: 48px 0 0 0;
