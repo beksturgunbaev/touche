@@ -12,4 +12,16 @@ $(document).ready(function() {
         	800
         );
     });
+// При наведении на иконки Войти:
+    // $('.head-login-icon').hover(function() {
+    //     $('body').css('background', 'rgb(0,0,0,.4');
+    // }, function() {
+    //     $('body').css('background', 'transparent');
+    // });
+
+    $('.search-sub-block').hover(function() {
+        $(this).addClass('active');
+    }, function() {
+        $(this).removeClass('active');
+    });
 });

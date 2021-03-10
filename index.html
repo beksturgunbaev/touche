@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Главная</title>
+	<title>Touche</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -232,33 +232,31 @@
 					<nav class="header__custom custom">
 						<div class="custom__body">
 							<div class="custom__list">
-								<a href="#" class="custom__link custom__link_name">MARIA</a>
-								<a href="#" class="custom__link custom__link_icon">
-									<picture>
-										<source srcset="img/header/Group.webp" type="image/webp"><img class="head-heart-icon"
-											src="img/header/Group.png" alt="">
-									</picture>
-								</a>
-								<div class="custom__parent">
-									<a href="#" class="custom__link custom__link_user">
-										<picture>
-											<source srcset="img/header/user-1.webp" type="image/webp"><img class="head-user-icon"
-												src="img/header/user-1.png" alt="">
-										</picture>
-									</a>
-									<div class="custom__submenu submenuCustom">
-										<div class="submenuCustom__item">
-											<div class="submenuCustom__container submenuCustom__container_user user">
-												<ul class="user__list">
-													<li><a href="#" class="user__link">MIS ARTículos guardados</a></li>
-													<li><a href="#" class="user__link">MIS FAVORITOS</a></li>
-													<li><a href="#" class="user__link">MIS DATOS</a></li>
-													<li><a href="#" class="user__link">LOG OUT</a></li>
-												</ul>
-											</div>
+								<div class="head-login-icon">
+									<p class="custom__link custom__link_name">MARIA</p>
+									<div class="custom__parent login-custom">
+										<a href="#" class="custom__link custom__link_user">
+											<picture>
+												<source srcset="img/header/user-1.webp" type="image/webp"><img class="head-user-icon"
+													src="img/header/user-1.png" alt="">
+											</picture>
+										</a>
+										<div class="login-sub-menu">
+											<ul class="user__list">
+												<li><a href="#" class="user__link">MIS ARTículos<br/> guardados</a></li>
+												<li><a href="#" class="user__link">MIS FAVORITOS</a></li>
+												<li><a href="#" class="user__link">MIS DATOS</a></li>
+												<li><a href="#" class="user__link">LOG OUT</a></li>
+											</ul>
 										</div>
 									</div>
 								</div>
+								<a href="#" class="custom__link custom__link_icon heart-mob--icon">
+									<picture>
+										<source srcset="img/header/Group.webp" type="image/webp">
+										<img class="head-heart-icon" src="img/header/Group.png" alt="">
+									</picture>
+								</a>
 								<div class="custom__parent custom__parent22">
 									<a href="#" class="custom__link custom__link_shop">
 										<picture>
@@ -266,36 +264,32 @@
 												src="img/header/Union.png" alt="">
 										</picture>
 									</a>
-									<div class="custom__submenu submenuCustom">
+									<!-- <div class="custom__submenu submenuCustom">
 										<div class="submenuCustom__item">
 											<div class="submenuCustom__container submenuCustom__container_shop">
 
 											</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
-								<div class="custom__parent search-mob-icon" data-da="custom__list,0,992">
+								<div class="search-mob custom__parent search-mob-icon" data-da="custom__list,0,992">
 									<a href="#" class="custom__link custom__link_search">
 										<picture>
 											<source srcset="img/header/search.webp" type="image/webp"><img
 												src="img/header/search.png" alt="">
 										</picture>
 									</a>
-									<div class="custom__submenu submenuCustom">
-										<div class="submenuCustom__item">
-											<div
-												class="submenuCustom__container submenuCustom__container_search search">
-												<div class="search__content">
-													<span class="search__text">SEARCH</span>
-													<button class="search__btn">BUSCAR</button>
-												</div>
-											</div>
-										</div>
+									<div class="search-sub-block">
+										<form class="search-form" action="">
+											<input class="search-sub-input" type="text" placeholder="Search">
+										</form>
+										<button class="mob-search-btn">Buscar</button>
 									</div>
 									<div>
 									</div>
 								</div>
 							</div>
+						</div>
 					</nav>
 				</div>
 
@@ -369,7 +363,7 @@
 							<span class="card-big__name">MAKEUP</span>
 							<span class="card-big__min">2 min</span>
 							<a class="save-icon-link" href="#">			
-								<svg class="icon-save" width="20" height="30" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
+								<svg class="icon-save" width="24" height="45" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
 									<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
 								</svg>
 							</a>

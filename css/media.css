@@ -649,7 +649,7 @@
   
     .card-big__text {
       padding: 0px 0px 30px 0px;
-      font-size: 11px;
+      font-size: 12px;
       line-height: 18px;
     }
   
@@ -1007,6 +1007,28 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .search-form {
+      width: 100% !important;
+    }
+    .card__item {
+      padding: 0 0 0 20px;
+    }
+    .card__text {
+      line-height: 15px;
+      font-weight: 400;
+    }
+    .card__bodys {
+      line-height: 18px;
+    }
+    .save-icon-link {
+      bottom: 16px;
+    }
+    .card-big__bodys {
+      font-weight: 400;
+    }
+    .card-big__title {
+      font-weight: 500;
+    }
     .borders {
       min-height: auto;
     }
@@ -1034,6 +1056,9 @@
     .icon-menu {
       left: 15px !important;
     }
+    .search-mob {
+      margin-left: 5px !important;
+    }
   }
   @media screen and (max-width: 510px) {
     .header__column_r {
@@ -1055,7 +1080,7 @@
   }
   @media screen and (max-width: 440px) {
     .header__column_r {
-      margin-left: 80px;
+      margin-left: 70px;
     }
   }
   @media (max-width: 410px) {
@@ -1072,6 +1097,9 @@
     }
     .eleccion__column {
       margin: 0;
+    }
+    .search-mob {
+      margin-left: -5px !important;
     }
   }
   
@@ -1107,11 +1135,14 @@
   }
   
   @media (max-width: 360px) {
+    .search-mob {
+      margin-left: 30px !important;
+    }
     .title-big {
       width: auto;
     }
     ._container {
-      padding: 0 10px 0 10px;
+      padding: 0 15px 0 10px;
     }
     .icon-menu {
       left: 10px;
@@ -1168,7 +1199,7 @@
       width: auto;
     }
     .card__body {
-      padding: 2px 12px 0px 0px;
+      padding: 0 12px 0px 0px;
     }
     .card2__image img {
       width: 100%;
@@ -1202,7 +1233,28 @@
       width: 96%;
     }
   }
-  
+  @media screen and (max-width: 991px) {
+    .mob-search-btn {
+      display: block;
+    }
+    .search-form {
+      width: 50%;
+    }
+    .head-user-icon {
+      margin-top: 4px;
+    }
+    .heart-mob--icon {
+      order: -1;
+    }
+    .search-mob {
+      order: -1;
+    }
+    .login-sub-menu,
+    .search-sub-block {
+      width: 100%;
+      top: 45px;
+    }
+  }
   @media (max-width: 310px) {
     .bookmarks__card {
       margin: 0px 0px 20px 0px;
