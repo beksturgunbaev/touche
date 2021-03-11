@@ -9,8 +9,8 @@
     }
   
     .shadow:hover {
-      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
-              box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: -16px -10px 15px 0px rgb(0 0 0 / 15%);
+      box-shadow: -16px -10px 15px 0px rgb(0 0 0 / 15%);
     }
   
     .shadowBig {
@@ -418,6 +418,7 @@
   
     .tienda__list {
       margin: 0px 0px 0px 20px;
+      text-align: left;
     }
   
     .tienda__list.content-block._active,
@@ -451,7 +452,7 @@
     }
   
     .custom__link_icon {
-      margin: 8px 0px 0px 0px;
+      margin: 8px 0px 0px 20px;
       display: block;
     }
   
@@ -971,8 +972,8 @@
     }
   
     .bookmarks__card {
-      margin: 0px 0px 15px 0px;
-      padding: 0px 0px 8px 0px;
+      margin: 0px 0px 18px 0px;
+      padding: 0px 0px 18px 0px;
       border-bottom: 1px solid #BDBDBDFF;
     }
   
@@ -1363,6 +1364,7 @@
     .search-sub-block {
       width: 100%;
       top: 45px;
+      text-align: left;
     }
   }
   @media (max-width: 310px) {
@@ -1371,9 +1373,9 @@
     }
   }
   @supports (-webkit-appearance:none){
-  .link_after:after{background:url("../img/icons/arrow-right.webp") 0 0 no-repeat}
-  .card-big__min:after{background:url("../img/card/clock.webp") 0 0/15px 15px no-repeat}
-  .card__min:after{background:url("../img/product/clock.webp") 0 0/11px 11px no-repeat}
+  .link_after:after{background:url("../img/icons/arrow-right.png") 0 0 no-repeat}
+  .card-big__min:after{background:url("../img/card/clock.png") 0 0/15px 15px no-repeat}
+  .card__min:after{background:url("../img/product/clock.png") 0 0/11px 11px no-repeat}
   }
   
    @media (min-width: 991.98px){

@@ -12,6 +12,30 @@ $(document).ready(function() {
         	800
         );
     });
+// При клике на иконку Бургер меню:
+$('.icon-menu').toggle(function() {
+    $('.bg').css('display', 'block');
+    $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+}, function() {
+    $('.bg').css('display', 'none');
+    $('.bg').css('background', 'rgb(0, 0, 0)');
+});
+// При клике на иконку Войти:
+$('.head-user-icon').hover(function() {
+    $('.bg').css('display', 'block');
+    $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+}, function() {
+    $('.bg').css('display', 'none');
+    $('.bg').css('background', 'rgb(0, 0, 0)');
+});
+// При клике на иконку Поиск:
+$('.search-img').hover(function() {
+    $('.bg').css('display', 'block');
+    $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+}, function() {
+    $('.bg').css('display', 'none');
+    $('.bg').css('background', 'rgb(0, 0, 0)');
+});
 // При наведении на иконку "Поиск":
     $('.search-sub-block').hover(function() {
         $(this).addClass('active');
