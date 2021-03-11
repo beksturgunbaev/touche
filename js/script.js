@@ -28,8 +28,23 @@ $('.head-user-icon').hover(function() {
     $('.bg').css('display', 'none');
     $('.bg').css('background', 'rgb(0, 0, 0)');
 });
+$('.head-login-icon').hover(function() {
+    $('.bg').css('display', 'block');
+    $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+}, function() {
+    $('.bg').css('display', 'none');
+    $('.bg').css('background', 'rgb(0, 0, 0)');
+});
 // При клике на иконку Поиск:
 $('.search-img').hover(function() {
+    $('.bg').css('display', 'block');
+    $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+}, function() {
+    $('.bg').css('display', 'none');
+    $('.bg').css('background', 'rgb(0, 0, 0)');
+});
+
+$('.extra-class-hover').hover(function() {
     $('.bg').css('display', 'block');
     $('.bg').css('background', 'rgb(0, 0, 0, .2)');
 }, function() {
@@ -42,6 +57,7 @@ $('.search-img').hover(function() {
     }, function() {
         $(this).removeClass('active');
     });
+    
 
 // При выборе фильтры:
     $('.sidebar-checkItem').toggle(function() {
