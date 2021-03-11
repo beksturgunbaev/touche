@@ -331,7 +331,7 @@
       padding: 2px 0 0;
     }
     .simple-rating__items {
-      top: 2px;
+      top: -1px;
     }
     .goods__span {
       font-size: 9px;
@@ -1007,6 +1007,76 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .filtr-sidebar-btns {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    .filtr-sidebar-btns button {
+      width: 48%;
+      font-size: 10px;
+      line-height: 14px;
+    }
+    .simple-rating__items {
+      top: -2px;
+    }
+    .filtros {
+      margin-right: 0;
+      justify-content: flex-end;
+      width: 100%;
+    }
+    .filtros .filtros-svg {
+      order: -1;
+      transform: rotate(180deg);
+      padding: 4px 0 0 16px;
+    }
+    .filtros-back svg {
+      transform: rotate(180deg);
+      order: 1;
+    }
+    .filtros-back {
+      justify-content: flex-end;
+    }
+    .filtros-back span {
+      padding-right: 16px;
+    }
+    .tienda-back svg {
+      transform: rotate(180deg);
+      order: 1;
+    }
+    .tienda-back {
+      justify-content: flex-end;
+    }
+    .tienda-back span {
+      padding-right: 16px;
+    }
+    .filtros-sidebar {
+      right: 0;
+      padding: 20px;
+    }
+    .tienda-sidebar {
+      right: 0;
+      padding: 20px;
+    }
+    .tienda-content {
+      width: 360px;
+      height: 270px;
+    }
+    .tienda-header {
+      justify-content: center !important;
+    }
+    .tienda-content {
+      text-align: center;
+    }
+    .tienda-title {
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .tienda-text {
+      font-size: 14px;
+      line-height: 22px;
+    }
     .search-form {
       width: 100% !important;
     }
@@ -1102,7 +1172,28 @@
       margin-left: -5px !important;
     }
   }
-  
+  @media screen and (max-width: 380px) {
+    .tienda-content {
+      width: 300px;
+      padding: 20px 10px;
+    }
+    .tienda-cost {
+      font-size: 16px;
+      line-height: 18px;
+    }
+    .tienda-header-txt {
+      font-size: 10px;
+      line-height: 14px;
+    }
+    .tienda-title {
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .tienda-text {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
   @media (max-width: 370px) {  
     .images__img_1 {
       margin: 0px 10px 0px 0px;
@@ -1135,6 +1226,12 @@
   }
   
   @media (max-width: 360px) {
+    .nav-link:last-child {
+      margin-right: 0;
+    }
+    .nav-link {
+      margin-right: 12px;
+    }
     .search-mob {
       margin-left: 30px !important;
     }
@@ -1234,6 +1331,19 @@
     }
   }
   @media screen and (max-width: 991px) {
+    .tienda-nav {
+      display: block;
+      padding: 10px 20px;
+    }
+    .filtros {
+      margin-bottom: 7px;
+    }
+    .filtros-sidebar {
+      top: 44px;
+    }
+    .tienda-sidebar {
+      top: 44px;
+    }
     .mob-search-btn {
       display: block;
     }
