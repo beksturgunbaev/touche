@@ -100,8 +100,8 @@
     }
   
     .card:hover .card__image {
-      -webkit-box-shadow: -15px 15px 15px 0px rgba(0, 0, 0, 0.2);
-              box-shadow: -15px 15px 15px 0px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: -16px -10px 15px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: -16px -10px 15px 0px rgba(0, 0, 0, 0.15);
     }
   
     .card__body:hover {

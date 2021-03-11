@@ -2746,9 +2746,13 @@ button.swiper-pagination-bullet {
   text-transform: uppercase;
   padding-left: 10px;
 }
+.tienda-asterisks {
+  margin-bottom: 2px;
+}
 .tienda-asterisks .asterisks {
   color: #000;
   opacity: .3;
+  font-size: 18px;
   cursor: default;
 }
 .tienda-asterisks .asterisks.active {
@@ -2772,7 +2776,7 @@ button.swiper-pagination-bullet {
   text-transform: uppercase;
 }
 .tienda-text {
-  font-family: 'Termina';
+  font-family: 'OpenSans';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
