@@ -93,4 +93,16 @@ $('.extra-class-hover').hover(function() {
         $('.goods__bodys').css('background', 'rgb(225, 225, 225, .9)');
         $('.tienda-container').css('z-index', '-1');
     });
+
+// При клике на Revista:
+    $('.revista-header').click(function() {
+        $('.bg').css('display', 'block');
+        $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+        $('.revista-sidebar').addClass('active');
+    });
+    $('.revista-back').click(function() {
+        $('.bg').css('display', 'none');
+        $('.bg').css('background', 'rgb(0, 0, 0)');
+        $('.revista-sidebar').removeClass('active');
+    });
 });

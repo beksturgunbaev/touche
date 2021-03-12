@@ -243,8 +243,17 @@
     .card__image img {
       width: 373px;
     }
-    .bookmarks__card:nth-child(2) {
+    .bookmarks__card2 {
       margin: 0 !important;
+    }
+    .card-revista {
+      max-width: 364px;
+    }
+    .card-revista img {
+      width: 364px;
+    }
+    .card-revista:nth-child(2n) {
+      margin-right: 0 !important;
     }
   }
   @media (max-width: 1240px) {
@@ -284,6 +293,7 @@
     .card {
       max-width: 354px;
     }
+
     .save-svg-tablet {
       display: block;
     }
@@ -295,7 +305,12 @@
     .card__iconsm {
       display: none;
     }
-  
+    .card-revista {
+      max-width: 364px;
+    }
+    .card-revista img {
+      width: 364px;
+    }
     .card__icon {
       margin: 18px 12px 0px 8px;
     }
@@ -864,6 +879,20 @@
     }
   }
   @media screen and (max-width: 991px) {
+    .revista-desc {
+      display: none;
+    }
+    .revista-tablet {
+      display: block;
+    }
+    .revista-img {
+      position: inherit;
+      left: 0;
+    }
+    .revista-block {
+      margin-right: 30px;
+      margin-left: 40px;
+    }
     .product__goods {
       margin: 0 10px;
     }
@@ -895,7 +924,13 @@
     .filtros {
       margin-bottom: 7px;
     }
+    .revista-header {
+      margin-bottom: 7px;
+    }
     .filtros-sidebar {
+      top: 44px;
+    }
+    .revista-sidebar {
       top: 44px;
     }
     .tienda-sidebar {
@@ -929,6 +964,13 @@
     }
   }
   @media screen and (max-width: 767px) {
+    .revista-container {
+      flex-direction: column;
+      padding: 60px 20px 80px;
+    }
+    .revista-block {
+      padding-top: 30px;
+    }
     .bookmarks__content {
       justify-content: center !important;
     }
@@ -1122,6 +1164,9 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .revista-block {
+      margin: 0;
+    }
     .nav-link:last-child {
       margin-right: 0 !important;
     }
@@ -1148,6 +1193,16 @@
       justify-content: flex-end;
       width: 100%;
     }
+    .revista-header {
+      margin-right: 0;
+      justify-content: flex-end;
+      width: 100%;
+    }
+    .revista-header .filtros-svg {
+      order: -1;
+      transform: rotate(180deg);
+      padding: 4px 0 0 16px;
+    }
     .filtros .filtros-svg {
       order: -1;
       transform: rotate(180deg);
@@ -1159,6 +1214,12 @@
     }
     .filtros-back {
       justify-content: flex-end;
+    }
+    .revista-back {
+      justify-content: flex-end;
+    }
+    .revista-back span {
+      padding-right: 16px;
     }
     .filtros-back span {
       padding-right: 16px;
@@ -1174,6 +1235,10 @@
       padding-right: 16px;
     }
     .filtros-sidebar {
+      right: 0;
+      padding: 20px;
+    }
+    .revista-sidebar {
       right: 0;
       padding: 20px;
     }
@@ -1329,6 +1394,12 @@
   @media (max-width: 370px) and (max-width: 340px) {
     .images__img_1 {
       margin: 0px 5px 0px 0px;
+    }
+    .revista-block .revista-btns .revista-btn {
+      width: 142px;
+    }
+    .revista-container {
+      padding: 60px 15px 80px;
     }
   }
   

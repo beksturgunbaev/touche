@@ -2917,6 +2917,62 @@ button.swiper-pagination-bullet {
   visibility: visible;
   z-index: 9999;
 }
+.revista-sidebar {
+  max-width: 1520px;
+  margin: 0 auto;
+  position: fixed;
+  width: 286px;
+  height: 100%;
+  top: 82px;
+  left: auto;
+  z-index: -1;
+  background-color: #fff;
+  padding: 20px 20px 20px 40px;
+  visibility: hidden;
+  transition: .5s;
+  opacity: 0;
+}
+.revista-sidebar.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;
+}
+.revista-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+   -ms-flex-pack: start;
+       justify-content: flex-start;
+  -webkit-box-align: center;
+   -ms-flex-align: center;
+       align-items: center;
+}
+.nav-links {
+  max-width: 1280px;
+}
+.revista-header {
+  width: 128px;
+  font-weight: 600 !important;
+}
+.revista-header span {
+  font-weight: 300 !important;
+  padding-left: 4px;
+}
+.revista-header {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  margin-right: 25px;
+}
+.revista-header .filtros-svg {
+  padding: 2px 0 0 7px;
+}
 .tienda-sidebar {
   max-width: 1520px;
   margin: 0 auto;
@@ -2931,6 +2987,35 @@ button.swiper-pagination-bullet {
   visibility: hidden;
   transition: .5s;
   opacity: 0;
+}
+.revista-back {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.revista-back span {
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.revista-back svg {
+  margin-top: 2px;
+}
+.revista-back svg path {
+  stroke: #000;
+  opacity: 1;
+}
+.revista-items {
+  margin-top: 16px;
+  cursor: pointer;
+}
+.revista-items:hover .sidebar-checkbox {
+  font-weight: 500;
 }
 .tienda-sidebar.active {
   opacity: 1;
@@ -3084,4 +3169,90 @@ button.swiper-pagination-bullet {
 }
 .filtros-btn:focus {
   outline: none;
+}
+/* Страница Revista */
+.revista-page {
+  padding: 36px 0;
+}
+.revista-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+  padding: 50px 20px 120px;
+  max-width: 1280px;
+  margin: 0px auto;
+  width: 100%;
+}
+.revista-img {
+  position: relative;
+  left: -55px;
+}
+.revista-tablet {
+  display: none;
+}
+.revista-img img {
+  max-width: 100%;
+  height: auto;
+}
+.revista-block {
+  text-align: center;
+  margin-right: 65px;
+}
+.revista-block .revista-title {
+  font-family: 'Termina';
+  font-size: 21px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 600;
+}
+.revista-block .revista-cost {
+  font-family: 'Termina';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 14px 0 16px;
+}
+.revista-block .revista-cost span{
+  opacity: .3;
+}
+.revista-block .revista-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+  width: 100%;
+}
+.revista-block .revista-btns .revista-btn  {
+  width: 149px;
+  height: 36px;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  transition: .2s;
+}
+.revista-block .revista-btns .revista-btn:first-child {
+  margin-right: 10px;
+}
+.revista-block .revista-btns .revista-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.card-revista {
+  margin-bottom: 50px;
 }
