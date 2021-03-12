@@ -389,11 +389,11 @@ textarea.input {
 
 .simple-rating__label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 20%;
-          flex: 0 0 20%;
+      -ms-flex: 0 0 15%;
+          flex: 0 0 15%;
   height: 100%;
   cursor: pointer;
-  color: #b3b3b3ff;
+  color: #000;
 }
 
 .simple-rating__label:before {
@@ -2306,6 +2306,7 @@ button.swiper-pagination-bullet {
 .goods__cost {
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 18px;
 }
 
 .black-block {
@@ -2505,6 +2506,7 @@ button.swiper-pagination-bullet {
 
 .product {
   margin: 0px 0px 65px 0px;
+  padding-top: 36px;
 }
 
 .product__title {
@@ -2860,6 +2862,9 @@ button.swiper-pagination-bullet {
    -ms-flex-align: center;
        align-items: center;
 }
+.nav-links {
+  max-width: 1280px;
+}
 .filtros {
   width: 128px;
   font-weight: 600 !important;
@@ -2878,7 +2883,7 @@ button.swiper-pagination-bullet {
   color: #000;
   cursor: pointer;
   display: flex;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 .nav-link span {
   padding: 1px 0 0 7px;

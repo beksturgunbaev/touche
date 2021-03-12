@@ -50,8 +50,8 @@
     }
   
     .shadowUp:hover {
-      -webkit-box-shadow: -16px -10px 15px 0px rgba(0, 0, 0, 0.15);
-              box-shadow: -16px -10px 15px 0px rgba(0, 0, 0, 0.15);
+      -webkit-box-shadow: -16px -10px 15px 0px rgba(0, 0, 0, 0.10);
+              box-shadow: -16px -10px 15px 0px rgba(0, 0, 0, 0.10);
     }
   
     .btnHover {
@@ -364,16 +364,20 @@
       margin: 0px 15px 20px 15px;
     }
   }
+  @media screen and (max-width: 1024px) {
+    .tienda-content {
+      text-align: center;
+    }
+    .product {
+      padding-top: 18px;
+    }
+  }
   @media screen and (max-width: 991px) {
     .search-mob {
       margin-left: 90px !important;
     }
   }
   @media (max-width: 991.98px) {
-    .block {
-      padding: 40px 0px;
-    }
-  
     .arrow {
       bottom: 1%;
       right: 30px;
@@ -860,6 +864,9 @@
     }
   }
   @media screen and (max-width: 991px) {
+    .product__goods {
+      margin: 0 10px;
+    }
     .bookmarks__content {
       padding: 0px 10px;
     }
@@ -1109,7 +1116,7 @@
           -ms-flex-align: center;
               align-items: center;
     }
-  
+    
     .borders__btn:first-child {
       margin: 0px 0px 10px 0px;
     }
@@ -1120,6 +1127,10 @@
       justify-content: space-between;
       align-items: center;
       width: 100%;
+    }
+    .goods__cost {
+      font-size: 12px;
+      line-height: 18px;
     }
     .filtr-sidebar-btns button {
       width: 48%;

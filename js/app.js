@@ -24,7 +24,7 @@ if (isMobile) {
 		const menuParent = menuParents[index];
 		menuParent.addEventListener("mouseenter", function (e) {
 			menuParent.classList.add('_active');
-			searchBg.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
+			searchBg.style.backgroundColor = "rgba(0, 0, 0, 0.1)";
 			searchBg.style.display = 'block';
 		});
 		menuParent.addEventListener("mouseleave", function (e) {
