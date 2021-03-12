@@ -67,19 +67,6 @@ $('.extra-class-hover').hover(function() {
     });
 // При нажатии на фильтр:
     $('.filtros').click(function() {
-        $('.filtros-sidebar').addClass('active');
-        $('.page').css('background', 'rgb(0, 0, 0, .1)');
-        $('.goods__bodys').css('background', 'rgb(225, 225, 225, .9)');
-        $('.tienda-container').css('z-index', '-1');
-    }); 
-    $('.filtros-back').click(function() {
-        $('.filtros-sidebar').removeClass('active');
-        $('.page').css('background', 'transparent');
-        $('.goods__bodys').css('background', '#fff');
-        $('.tienda-container').css('z-index', '1');
-    });
-// При клике на Tienda:
-    $('.tienda-link-btn').click(function() {
         $('.tienda-sidebar').addClass('active');
         $('.page').css('background', 'rgb(0, 0, 0, .1)');
         $('.goods__bodys').css('background', 'rgb(225, 225, 225, .9)');
@@ -87,8 +74,23 @@ $('.extra-class-hover').hover(function() {
     }); 
     $('.tienda-back').click(function() {
         $('.tienda-sidebar').removeClass('active');
+        $('.filtros-sidebar').removeClass('active');
         $('.page').css('background', 'transparent');
         $('.goods__bodys').css('background', '#fff');
         $('.tienda-container').css('z-index', '1');
+    });
+// При клике на товар:
+    $('.sidebar-checkItem').click(function() {
+        $('.tienda-sidebar').removeClass('active');
+        $('.filtros-sidebar').addClass('active');
+        $('.page').css('background', 'rgb(0, 0, 0, .1)');
+        $('.goods__bodys').css('background', 'rgb(225, 225, 225, .9)');
+        $('.tienda-container').css('z-index', '-1');
+    }); 
+    $('.filtros-back').click(function() {
+        $('.tienda-sidebar').addClass('active');
+        $('.page').css('background', 'rgb(0, 0, 0, .1)');
+        $('.goods__bodys').css('background', 'rgb(225, 225, 225, .9)');
+        $('.tienda-container').css('z-index', '-1');
     });
 });
