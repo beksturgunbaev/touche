@@ -420,9 +420,9 @@
   
     .revista__img {
       display: block;
-      margin: 0px 0px 0px 0px;
+      margin: 14px 0px 0px 0px;
       width: 30px;
-      height: 30px;
+      height: 24px;
     }
   
     .tienda {
@@ -1122,6 +1122,9 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .nav-link:last-child {
+      margin-right: 0 !important;
+    }
     .filtr-sidebar-btns {
       display: flex;
       justify-content: space-between;

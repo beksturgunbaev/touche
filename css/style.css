@@ -1515,7 +1515,7 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0s;
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
-  padding: 10px 34px;
+  padding: 10px 20px;
 }
 
 .revista._active,
