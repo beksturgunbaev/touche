@@ -398,7 +398,6 @@ textarea.input {
 
 .simple-rating__label:before {
   content: "★";
-  font-size: 11px;
   display: block;
   -webkit-transition: color 0.5s ease 0s;
   -o-transition: color 0.5s ease 0s;
@@ -1408,7 +1407,7 @@ button.swiper-pagination-bullet {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 75px 0px 40px -20px;
+  margin: 75px 20px 40px 20px;
 }
 
 .footer__icons {
@@ -2488,7 +2487,8 @@ button.swiper-pagination-bullet {
   margin: 0px 0px 35px 0px;
 }
 
-.bookmarks__content {
+.bookmarks__content,
+.bookmarks__content__extra {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2668,17 +2668,16 @@ button.swiper-pagination-bullet {
 }
 
 #toTop {
-  font-family: 'MyriadPro-Bold';
   z-index: 9999;
   text-align: center;
   position: fixed;
   top: 88%;
   right: 35px;
+  border: none;
   cursor: pointer;
 }
 #toTop svg {
-  width: 40px;
-  height: 40px;
+  border: none;
   stroke: #000;
   background-color: #fff;
   border-radius: 50%;
