@@ -105,4 +105,8 @@ $('.extra-class-hover').hover(function() {
         $('.bg').css('background', 'rgb(0, 0, 0)');
         $('.revista-sidebar').removeClass('active');
     });
+// При наведении на активное меню:
+    // $('#active_menu').hover(function() {
+    //     $(this).parent.removeClass('_active');
+    // });
 });

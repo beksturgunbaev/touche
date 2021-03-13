@@ -1407,7 +1407,7 @@ button.swiper-pagination-bullet {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 75px 20px 40px 20px;
+  margin: 75px 20px 40px 0;
 }
 
 .footer__icons {
@@ -1417,7 +1417,7 @@ button.swiper-pagination-bullet {
 }
 
 .footer__icon {
-  margin: 0px 60px 0px 0px;
+  margin: 0px 58px 0px 0px;
 }
 
 .footer__ps {
@@ -1921,10 +1921,22 @@ button.swiper-pagination-bullet {
 .menu__link._active,
 .menu__link._line {
   border-bottom: 1px solid #000;
-  padding: 10px 2px 5px 2px;
+  /* padding: 10px 2px 5px 2px; */
   font-weight: 600;
 }
-
+#active_menu {
+  position: relative;
+  font-weight: 600;
+}
+#active_menu:after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -5px;
+  right: 0;
+}
 .menu__submenu {
   position: absolute;
   top: 49px;
@@ -2235,7 +2247,7 @@ button.swiper-pagination-bullet {
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
-  max-width: 192px;
+  max-width: 216px;
   display: inline-block;
   text-transform: uppercase;
   color: #060000;
@@ -3214,13 +3226,13 @@ button.swiper-pagination-bullet {
 }
 .revista-block .revista-cost {
   font-family: 'Termina';
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   padding: 14px 0 16px;
 }
 .revista-block .revista-cost span{
-  opacity: .3;
+  font-weight: 300;
 }
 .revista-block .revista-btns {
   display: -webkit-box;
