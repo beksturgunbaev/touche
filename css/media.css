@@ -1174,7 +1174,7 @@
     }
     .card-revista:first-child .card__icon {
       position: inherit;
-      margin: 18px 45px 0px 18px;
+      margin: 18px 18px 0px 18px;
     }
     .card-revista:nth-child(3n+4) .card__icon {
       position: inherit;
