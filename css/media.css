@@ -953,6 +953,7 @@
     }
     .heart-mob--icon {
       order: -1;
+      margin-left: 38px;
     }
     .search-mob {
       order: -1;
@@ -1142,10 +1143,12 @@
       border-bottom: none;
     }
     .card-revista:first-child {
+      border-bottom: none;
       display: block !important;
     }
     .card-revista:nth-child(3n+4) {
       display: block !important;
+      border-bottom: none;
     }
     .card-revista:first-child img {
       width: 100%;
@@ -1387,6 +1390,9 @@
   @media screen and (max-width: 440px) {
     .header__column_r {
       margin-left: 80px;
+    }
+    .heart-mob--icon {
+      margin-left: 20px;
     }
   }
   @media (max-width: 410px) {
