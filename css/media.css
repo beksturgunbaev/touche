@@ -1215,15 +1215,20 @@
     .filtros-back {
       justify-content: flex-end;
     }
+    .filtros-back span {
+      padding-right: 16px;
+    }
     .revista-back {
       justify-content: flex-end;
     }
     .revista-back span {
       padding-right: 16px;
     }
-    .filtros-back span {
-      padding-right: 16px;
+    .revista-back svg {
+      transform: rotate(180deg);
+      order: 1;
     }
+
     .tienda-back svg {
       transform: rotate(180deg);
       order: 1;
