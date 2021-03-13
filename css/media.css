@@ -1215,6 +1215,13 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .card-revista {
+      width: 100%;
+      max-width: 576px;
+    }
+    .card__items {
+      width: 100%;
+    }
     .revista-block {
       margin: 0;
     }
