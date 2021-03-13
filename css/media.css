@@ -1101,10 +1101,10 @@
       top: 3px;
     }
     .card__title {
-      max-width: 170px;
+      max-width: 200px;
       font-size: 14px;
       line-height: 18px;
-      margin: 0px 0px 5px 0px;
+      margin: 0px 0px 2px 0px;
     }
     .goods__title {
       font-size: 14px;
@@ -1150,6 +1150,22 @@
       display: block !important;
       border-bottom: none;
     }
+    .card-revista:first-child .card__title {
+      font-size: 16px;
+      line-height: 18px;
+    }
+    .card-revista:nth-child(3n+4) .card__title {
+      font-size: 16px;
+      line-height: 18px;
+    }
+    .card-revista:first-child .card__text {
+      font-size: 14px;
+      width: 220px;
+    }
+    .card-revista:nth-child(3n+4) .card__text {
+      font-size: 14px;
+      width: 220px;
+    }
     .card-revista:nth-child(3n+3) {
       border-bottom: none;
       padding-bottom: 34px;
@@ -1178,7 +1194,7 @@
     }
     .card-revista:nth-child(3n+4) .card__icon {
       position: inherit;
-      margin: 18px 45px 0px 18px;
+      margin: 18px 18px 0px 18px;
     }
     .card-revista {
       max-width: 332px;
@@ -1331,10 +1347,9 @@
       width: 100% !important;
     }
     .card__item {
-      padding: 0 0 0 20px;
+      padding: 0 0 0 10px;
     }
     .card__text {
-      line-height: 15px;
       font-weight: 400;
     }
     .card__bodys {
