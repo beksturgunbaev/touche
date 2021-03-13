@@ -1173,6 +1173,9 @@
       position: inherit;
       margin: 18px 45px 0px 18px;
     }
+    .card-revista {
+      max-width: 332px;
+    }
   }
   @media screen and (max-width: 700px) {
     .search-mob {
