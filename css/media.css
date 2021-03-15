@@ -406,6 +406,12 @@
     .search-mob {
       margin-left: 90px !important;
     }
+    .product-menu-head {
+      display: none !important;
+    }
+    ._tabs-block2 {
+      display: none !important;
+    }
   }
   @media (max-width: 991.98px) {
     .arrow {

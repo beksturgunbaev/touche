@@ -1695,7 +1695,9 @@ button.swiper-pagination-bullet {
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
-
+._tabs-block2 {
+  left: 20px;
+}
 .tienda__list__linst-content {
   position: absolute;
   opacity: 0;
@@ -1989,7 +1991,15 @@ button.swiper-pagination-bullet {
   width: 100%;
   min-height: 310px;
 }
-
+.product-menu-head {
+  position: relative;
+  width: 100%;
+}
+.product__column__menu {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 .menu__parent .menu__link::after {
   content: "";
 }
