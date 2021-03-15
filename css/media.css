@@ -412,6 +412,10 @@
     ._tabs-block2 {
       display: none !important;
     }
+    .art-text {
+      font-size: 15px;
+      line-height: 24px;
+    }
   }
   @media (max-width: 991.98px) {
     .arrow {
@@ -918,6 +922,7 @@
     .art-prod-title {
       font-size: 18px;
       line-height: 21px;
+      padding-right: 34px;
     }
     .art-product {
       text-align: left;
@@ -1076,6 +1081,9 @@
     .images__img_1 {
       margin: 0px 20px 0px 0px;
     }
+    .art-bookmarks .card__icon {
+      margin: 0;
+    }
     .bookmarks__card {
       margin: 0 0 20px 0 !important;
     }
@@ -1123,7 +1131,9 @@
     .card__item {
       margin: 0;
     }
-  
+    .art-bookmarks .card__item {
+      margin: 0;
+    }
     .card__bodys {
       height: 20px;
     }
@@ -1280,6 +1290,9 @@
     .articles-flex span:last-child {
       padding-right: 10px;
     }
+    .art-product {
+      width: 250px;
+    }
     .articles-block-txt {
       padding-left: 10px;
     }
@@ -1316,8 +1329,11 @@
     }
     .art-save-mob {
       position: absolute;
-      top: -7px;
+      top: 0;
       right: -175px;
+    }
+    .articles-flex {
+      padding-bottom: 6px;
     }
     .art-save-mob .article-icon-save {
       width: 20px !important;
@@ -1344,7 +1360,7 @@
       line-height: 30px;
     }
     .article-content {
-      padding: 40px 15px;
+      padding: 14px 15px;
     }
     .art-product:first-child {
       margin: 0 0 40px 0
@@ -1510,7 +1526,7 @@
       margin: -7px 0px 0px 5px;
     }
     .icon-menu {
-      left: 15px !important;
+      left: 16px !important;
     }
     .search-mob {
       margin-left: 5px !important;
@@ -1704,7 +1720,9 @@
     .card {
       max-width: 310px;
     }
-  
+    .art-bookmarks .card__icon {
+      margin: 0;
+    }
     .card__icon {
       margin: 0;
     }

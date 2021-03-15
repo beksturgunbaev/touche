@@ -2915,6 +2915,7 @@ button.swiper-pagination-bullet {
 .nav-link:last-child {
   opacity: .3;
   cursor: auto;
+  padding-bottom: 1px;
 }
 .filtros .filtros-svg {
   padding: 2px 0 0 7px;
@@ -3305,6 +3306,7 @@ button.swiper-pagination-bullet {
   position: absolute;
   top: 50%;
   transform: translate(0%, -50%);
+  padding: 0 20px;
 }
 .articles-block {
   position: absolute;
@@ -3348,7 +3350,7 @@ button.swiper-pagination-bullet {
   padding-left: 18px;
 }
 .articles-flex span:last-child {
-  padding-right: 30px;
+  padding-right: 20px;
 }
 .article-icon-save {
   stroke: #000;
@@ -3380,7 +3382,7 @@ button.swiper-pagination-bullet {
   font-size: 21px;
   line-height: 24px;
   color: #000;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 .art-text {
   font-family: 'OpenSans';
@@ -3410,9 +3412,8 @@ button.swiper-pagination-bullet {
 }
 .art-product {
   width: 342px;
-  height: 474px;
   background-color: #fff;
-  padding: 20px 54px;
+  padding: 20px 54px 14px;
   text-align: center;
 }
 .art-product:first-child {
@@ -3465,4 +3466,21 @@ button.swiper-pagination-bullet {
 }
 .art-bookmarks {
   padding-bottom: 130px;
+}
+.art-bookmarks .card__item {
+  margin: -36px -1px 0px 0px;
+}
+.art-bookmarks .card__bodys {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.art-bookmarks .save-svg-tablet {
+  display: block;
+}
+.art-bookmarks .card__icon {
+  margin: 18px 12px 0px 8px;
+}
+.art-bookmarks .card__iconsm {
+  display: none;
 }
