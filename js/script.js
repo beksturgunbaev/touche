@@ -60,7 +60,7 @@ $('.extra-class-hover').hover(function() {
     
 
 // При выборе фильтры:
-    $('.sidebar-checkItem').toggle(function() {
+    $('.tienda---link').toggle(function() {
         $(this).find('.check-block').css('background', '#000');
     }, function() {
         $(this).find('.check-block').css('background', '#fff')
@@ -80,7 +80,7 @@ $('.extra-class-hover').hover(function() {
         $('.tienda-container').css('z-index', '1');
     });
 // При клике на товар:
-    $('.sidebar-checkItem').click(function() {
+    $('.tienda---link').click(function() {
         $('.tienda-sidebar').removeClass('active');
         $('.filtros-sidebar').addClass('active');
         $('.page').css('background', 'rgb(0, 0, 0, .1)');

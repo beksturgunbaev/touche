@@ -400,6 +400,9 @@
     .revista-block .revista-cost {
       padding: 5px 0 25px;
     }
+    .articles-title {
+      padding: 0 20px;
+    }
     .revista-container {
       padding: 36px 20px 72px;
     }
@@ -1531,6 +1534,15 @@
     .search-mob {
       margin-left: 5px !important;
     }
+    .goods {
+      width: auto;
+    }
+    .goods__image img {
+      width: 100%;
+    }
+    .goods__image {
+      width: 100%;
+    }
   }
   @media screen and (max-width: 510px) {
     .header__column_r {
@@ -1538,9 +1550,6 @@
     }
   }
   @media (max-width: 479.98px) {
-    .goods__image img {
-      width: 157px;
-    }
   
     .goods__bodys {
       width: 131px;
