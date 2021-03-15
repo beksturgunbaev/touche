@@ -107,9 +107,10 @@ $('.extra-class-hover').hover(function() {
     });
 // Удалить активный класс в меню:
     if($(window).width() < 991) {
-        $('.menu__link').removeClass('#active_menu');
+        $('.menu__link').removeClass('active_menu');
         $('.tienda__list__extra .tienda__link').removeClass('link_after');
     } 
+
     $('.ojos-link').hover(function() {
         $('._tabs-block2').addClass('_active');
     }, function() {

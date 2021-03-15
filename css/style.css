@@ -1926,11 +1926,11 @@ button.swiper-pagination-bullet {
   /* padding: 10px 2px 5px 2px; */
   font-weight: 600;
 }
-#active_menu {
+.active_menu {
   position: relative;
   font-weight: 600;
 }
-#active_menu:after {
+.active_menu:after {
   content: "";
   background-color: #000;
   position: absolute;
