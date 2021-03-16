@@ -384,6 +384,16 @@
       margin: 0px 15px 20px 15px;
     }
   }
+  @media screen and (max-width: 1200px) {
+    .tienda-menu-cont {
+      padding: 0;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    .tienda-menu-cont .tienda-menu-block {
+      width: 40%;
+    }
+  }
   @media screen and (max-width: 1024px) {
     .tienda-content {
       text-align: center;
@@ -1049,6 +1059,36 @@
     .search-mob {
       margin-left: 30px !important;
     }
+    .descubre__images:first-child {
+      margin-right: 8px;
+    }
+    .descubre__images:last-child {
+      margin-left: 8px;
+    }
+    .images__img_1 {
+      margin: 0;
+    }
+    .tiend-btn {
+      max-width: 767px;
+      padding: 0 15px;
+    }
+    .tiend-btn a {
+      width: 100%;
+    }
+    .descubre__row {
+      max-width: 767px;
+      width: 100%;
+    }
+    .descubre__column {
+      width: 100%;
+    }
+    .descubre__images {
+      width: 100%;
+    }
+    .images__img img {
+      width: 100%;
+      height: auto;
+    }
   }
   @media (max-width: 765px) {
 
@@ -1092,10 +1132,6 @@
     }
     .bookmarks__card:nth-child(2) {
       margin: 0 0 20px 0 !important;
-    }
-    .images__img img {
-      width: 157px;
-      height: 120px;
     }
     .revista-page {
       padding-right: 0;
@@ -1168,20 +1204,6 @@
       font-size: 12px;
       line-height: 18px;
     }
-  
-    .descubre__row {
-      margin: 0px auto;
-      width: 340px;
-    }
-  
-    .descubre__column_3 {
-      display: none;
-    }
-  
-    .descubre__images {
-      margin: 0px 0px 13px 0px;
-    }
-  
     .bookmarks__content {
       max-width: 500px;
     }
@@ -1287,6 +1309,48 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .tienda-menu-flex-last {
+      flex-direction: column;
+    }
+    .tienda-menu-flex-last ul:last-child h3 {
+      margin-top: 50px;
+    }
+    .tienda-menu-cont .tienda-menu-block {
+      width: 80%;
+    }
+    .descubre__images:first-child {
+      margin-right: 8px;
+    }
+    .descubre__images:last-child {
+      margin-left: 8px;
+    }
+    .images__img_1 {
+      margin: 0;
+    }
+    .tiend-btn {
+      max-width: 576px;
+      padding: 0 15px;
+    }
+    .tiend-btn a {
+      width: 100%;
+    }
+    .descubre__row {
+      max-width: 576px;
+      width: 100%;
+    }
+    .descubre__column {
+      width: 100%;
+    }
+    .descubre__images {
+      width: 100%;
+    }
+    .images__img img {
+      width: 100%;
+      height: auto;
+    }
+    .block {
+      padding: 40px 0;
+    }
     .articles-product {
       background-image: url(../img/product/articles-img2-mobile.png);
     }
@@ -1614,20 +1678,8 @@
       line-height: 20px;
     }
   }
-  @media (max-width: 370px) {  
-    .images__img_1 {
-      margin: 0px 10px 0px 0px;
-    }
-  
-    .descubre {
-      margin: 0px -35px;
-    }
-  }
   
   @media (max-width: 370px) and (max-width: 340px) {
-    .images__img_1 {
-      margin: 0px 5px 0px 0px;
-    }
     .revista-block .revista-btns .revista-btn {
       width: 142px;
     }
@@ -1693,10 +1745,6 @@
     .head-user-icon {
       padding-left: 4px;
     }
-    .descubre__row {
-      padding: 0 30px;
-      width: 100%;
-    }
     .images__img img {
       width: 100%;
       height: auto;
@@ -1741,9 +1789,6 @@
     }
     .eleccion__card2:last-child {
       margin: 30px 15px 0 5px;
-    }
-    .btn_b {
-      width: 80%;
     }
     .bookmarks__btn22 {
       width: 94%;

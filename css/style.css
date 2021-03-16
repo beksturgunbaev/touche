@@ -3484,3 +3484,69 @@ button.swiper-pagination-bullet {
 .art-bookmarks .card__iconsm {
   display: none;
 }
+.tienda-footer-menu {
+  padding: 20px 0 80px;
+}
+.tienda-menu-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 0 35px;
+}
+.tienda-menu-cont .tienda-menu-block {
+  width: 26%;
+  margin-bottom: 50px;
+}
+.tienda-menu-title {
+  font-family: 'Termina';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000;
+}
+.tienda-menu-link a {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+  transition: .3s;
+  position: relative;
+  padding-bottom: 1px;
+}
+.tienda-menu-link a:after {
+  position: absolute;
+  top: 22px;
+  background-color: #000;
+  display: block;
+  content: "";
+  height: 1px;
+  width: 0%;
+  -webkit-transition: width 0.2s ease-in-out;
+  -o-transition: width 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
+}
+.tienda-menu-link a:hover:after {
+  width: 100%;
+}
+.tienda-menu-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
