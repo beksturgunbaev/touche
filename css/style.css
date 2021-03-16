@@ -3282,6 +3282,14 @@ button.swiper-pagination-bullet {
 }
 
 /* Страница Articles */
+.art-content-text {
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  color: #060000;
+  padding: 40px 152px 20px 0;
+}
 .articles-container {
   max-width: 1520px;
   margin: 20px auto;
@@ -3293,12 +3301,71 @@ button.swiper-pagination-bullet {
   background-repeat: no-repeat;
   position: relative;
 }
+.art_container_1 {
+  max-width: 840px;
+  margin: 0 auto;
+  padding-right: 100px;
+}
+.spoon-img {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  z-index: -1;
+}
+.art1-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+          width: 100%;
+  padding: 50px 0;
+}
+.spoon-tablet-img {
+  display: none;
+  width: 100%;
+  padding: 60px 0 20px;
+}
+.art1-image {
+  width: 50%;
+}
+.art1-text {
+  width: 50%;
+}
+.art1-image img {
+  max-width: 100%;
+  height: auto;
+}
+.art1-text {
+  font-family: 'Termina';
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 30px;
+  color: #000;
+  text-align: center;
+  padding: 0 40px;
+}
 .articles-container2 {
   max-width: 1520px;
   margin: 20px auto;
   width: 100%;
   min-height: 306px;
   background-image: url(../img/product/art-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.articles-container3 {
+  max-width: 1520px;
+  margin: 20px auto;
+  width: 100%;
+  min-height: 306px;
+  background-image: url(../img/product/art-back1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3429,6 +3496,7 @@ button.swiper-pagination-bullet {
 }
 .article-content {
   padding: 40px 20px;
+  position: relative;
 }
 .art-title {
   font-family: 'Termina';
