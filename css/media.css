@@ -937,8 +937,33 @@
       line-height: 21px;
       padding-right: 34px;
     }
+    .articles-product-2 {
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto 40px;
+    }
+    .article-product-container {
+      min-height: 460px;
+      padding: 20px;
+    }
+    .art-prod-bloock:first-child {
+      position: absolute;
+      left: -120px;
+    }
+    .art-prod-bloock-txt {
+      font-size: 18px;
+      line-height: 27px;
+      max-width: 385px;
+      margin-left: 0;
+    }
     .art-product {
       text-align: left;
+    }
+    .articles-product-2 .art-product {
+      text-align: center;
+    }
+    .art_container_2 {
+      max-width: 650px;
     }
     .articles-product {
       -ms-flex-pack: distribute;
@@ -1029,8 +1054,32 @@
     }
   }
   @media screen and (max-width: 767px) {
+    .article-product-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .art-prod-bloock:first-child {
+      position: inherit;
+      left: auto;
+      padding-top: 30px;
+    }
+    .art-prod-bloock-txt {
+      padding: 40px 15px 40px;
+    }
+    .art-prod-bloock img {
+      max-width: 100%;
+      height: auto;
+    }
+    .article-product-container {
+      padding: 0;
+    }
     .revista-container {
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       padding: 26px 20px 80px;
     }
     .revista-block {
@@ -1309,6 +1358,37 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .articles-product-2 .art-product {
+      padding: 20px 15px 0;
+      width: auto;
+      max-width: 288px;
+    }
+    .articles-product-2 .art-prod-title {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .articles-product-2 .art-product {
+      text-align: left;
+    }
+    .articles-product-2 .art-product img {
+      padding: 10px 20px;
+    }
+    .articles-product-2 .tiende-content-btn {
+      margin: 10px auto;
+    }
+    .articles-product-2 .art-prod-header {
+      padding: 7px 0;
+    }
+    .articles-product-2 .art-prod-cost {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .articles-product-2 .tiende-content-btn {
+      height: 30px;
+    }
+    .articles-product-2 .art-product:first-child {
+      margin: 0;
+    }
     .tienda-menu-flex-last {
       flex-direction: column;
     }
@@ -1374,6 +1454,10 @@
     .articles-container {
       margin: 10px auto;
       background-image: url(../img/product/articles-mobile.png);
+    }
+    .articles-container2 {
+      margin: 10px auto;
+      background-image: url(../img/product/art-img2.png);
     }
     .articles-product {
       flex-direction: column;
@@ -1704,6 +1788,9 @@
   }
   
   @media (max-width: 360px) {
+    .articles-product-2 .art-prod-title {
+      padding-right: 0;
+    }
     .nav-link:last-child {
       margin-right: 0;
     }

@@ -3293,6 +3293,60 @@ button.swiper-pagination-bullet {
   background-repeat: no-repeat;
   position: relative;
 }
+.articles-container2 {
+  max-width: 1520px;
+  margin: 20px auto;
+  width: 100%;
+  min-height: 306px;
+  background-image: url(../img/product/art-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-prod-bloock-txt {
+  font-family: 'Termina';
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 30px;
+  color: #000;
+  text-align: center;
+  max-width: 524px;
+  margin-left: 30px;
+}
+.article-product-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  width: 100%;
+  position: relative;
+}
+.article-product-container .article-prod-bloock {
+  width: 40%;
+}
+.articles-product-2 {
+  max-width: 1520px;
+  width: 100%;
+  margin: 70px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .art_container {
   max-width: 1080px;
   margin: 0 auto;
