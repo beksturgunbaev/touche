@@ -407,6 +407,9 @@
     }
   }
   @media screen and (max-width: 991px) {
+    .block {
+      padding: 36px 0;
+    }
     .revista-block .revista-cost {
       padding: 5px 0 25px;
     }
@@ -816,10 +819,6 @@
   }
   
   @media (max-width: 768px) {
-    .title-big {
-      font-size: 20px;
-      line-height: 24px;
-    }
   
     .bookmarks__card {
       margin: 0px 10px 20px 10px;
@@ -1054,6 +1053,10 @@
     }
   }
   @media screen and (max-width: 767px) {
+    .title-big {
+      font-size: 20px;
+      line-height: 24px;
+    }
     .article-product-container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -1426,10 +1429,10 @@
     }
     .images__img img {
       width: 100%;
-      height: auto;
+      height: 135px;
     }
     .block {
-      padding: 40px 0;
+      padding: 20px 0;
     }
     .articles-product {
       background-image: url(../img/product/articles-img2-mobile.png);
@@ -1761,6 +1764,9 @@
       font-size: 12px;
       line-height: 20px;
     }
+    .images__img img {
+      height: 120px;
+    }
   }
   
   @media (max-width: 370px) and (max-width: 340px) {
@@ -1832,10 +1838,6 @@
     .head-user-icon {
       padding-left: 4px;
     }
-    .images__img img {
-      width: 100%;
-      height: auto;
-    }
     .eleccion__card2:first-child {
       margin: 30px 10px 0px 0px;
     }
@@ -1871,6 +1873,9 @@
   }
   
   @media (max-width: 340px) {
+    .images__img img {
+      height: 90px;
+    }
     .eleccion__card2:first-child {
       margin: 30px 5px 0 15px;
     }
