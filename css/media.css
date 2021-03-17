@@ -1412,6 +1412,11 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .goods-acciya {
+      top: 13px;
+      right: 13px;
+      left: auto;
+    }
     #art1-header-menu {
       padding: 10px 15px 0;
     }

@@ -2288,7 +2288,20 @@ button.swiper-pagination-bullet {
 .goods__image img {
   width: 221px;
 }
-
+.goods-acciya {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 7px;
+  background-color: #000;
+  color: #fff;
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
 .goods__bodys {
   position: absolute;
   display: -webkit-box;
@@ -3091,7 +3104,7 @@ button.swiper-pagination-bullet {
   opacity: 1;
 }
 .sidebar-check {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .sidebar-checkItem {
   display: -webkit-box;
@@ -3119,6 +3132,15 @@ button.swiper-pagination-bullet {
   font-size: 14px;
   line-height: 16px;
   color: #000;
+  text-transform: uppercase;
+}
+.sidebar-red-menu {
+  font-family: 'Termina';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FF0000;
+  margin-top: 16px;
   text-transform: uppercase;
 }
 .check-block {
@@ -3158,6 +3180,9 @@ button.swiper-pagination-bullet {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
+}
+.checked-product.active {
+  background-color: #FF0000;
 }
 .checked-product span {
   font-family: 'OpenSans';
