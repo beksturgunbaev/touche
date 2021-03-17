@@ -3284,7 +3284,7 @@ button.swiper-pagination-bullet {
 /* Страница Articles */
 .art-content-text {
   font-family: 'OpenSans';
-  font-weight: 600;
+  font-weight: 700;
   font-size: 21px;
   line-height: 30px;
   color: #060000;
@@ -3300,6 +3300,9 @@ button.swiper-pagination-bullet {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+}
+.mobile-save-icon {
+  display: none;
 }
 .art_container_1 {
   max-width: 840px;
@@ -3329,6 +3332,9 @@ button.swiper-pagination-bullet {
   display: none;
   width: 100%;
   padding: 60px 0 20px;
+}
+.art---img-tablet {
+  display: none;
 }
 .art1-image {
   width: 50%;
@@ -3505,6 +3511,7 @@ button.swiper-pagination-bullet {
   line-height: 24px;
   color: #000;
   padding-bottom: 7px;
+  text-transform: uppercase;
 }
 .art-text {
   font-family: 'OpenSans';
