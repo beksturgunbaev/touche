@@ -480,9 +480,10 @@
   
     .revista__img {
       display: block;
-      margin: 14px 0px 0px 0px;
+      margin: 14px 0px 5px -5px;
       width: 30px;
       height: 24px;
+      padding: 5px;
     }
   
     .tienda {
@@ -491,13 +492,14 @@
   
     .tienda__img {
       display: block;
-      margin: 5px 0px 0px 0px;
-      width: 40px;
-      height: 40px;
+      margin: 14px 0px 10px -10px;
+      width: 30px;
+      height: 24px;
+      padding: 5px;
     }
   
     .tienda__img img {
-      margin: 5px 0px 0px 0px;
+      padding: 5px;
     }
   
     .tienda__arrowLeft {
