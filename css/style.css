@@ -1839,7 +1839,6 @@ button.swiper-pagination-bullet {
   min-height: 370px;
   padding: 54px 0px 30px 0px;
   overflow: auto;
-  /* pointer-events: none; */
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
@@ -2313,7 +2312,7 @@ button.swiper-pagination-bullet {
   background-color: #fff;
   width: 174px;
   height: 18px;
-  margin: -28px 0px 0px 50px;
+  margin: -28px 0px 0px 47px;
   padding: 8px 0px 0px 0px;
 }
 
@@ -3120,9 +3119,6 @@ button.swiper-pagination-bullet {
   margin-top: 16px;
   cursor: pointer;
 }
-.sidebar-checkItem:last-child .check-block {
-  background-color: #fff;
-}
 .sidebar-checkItem:hover .sidebar-checkbox {
   font-weight: 600;
 }
@@ -3147,8 +3143,11 @@ button.swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   border: 1px solid #000;
-  background: #000;
+  background: #fff;
 }
+.check-block.active {
+  background-color: #000;
+} 
 .checked-products {
   padding: 20px 0;
   display: -webkit-box;

@@ -68,30 +68,22 @@ $('.extra-class-hover').hover(function() {
 // При нажатии на фильтр:
     $('.filtros').click(function() {
         $('.tienda-sidebar').addClass('active');
-        $('.page').css('background', 'rgb(0, 0, 0, .1)');
-        $('.goods__bodys').css('background', 'rgb(225, 225, 225, .9)');
-        $('.tienda-container').css('z-index', '-1');
+        $('.bg').css('display', 'block');
+        $('.bg').css('background', 'rgb(0, 0, 0, .2)');
     }); 
     $('.tienda-back').click(function() {
         $('.tienda-sidebar').removeClass('active');
         $('.filtros-sidebar').removeClass('active');
-        $('.page').css('background', 'transparent');
-        $('.goods__bodys').css('background', '#fff');
-        $('.tienda-container').css('z-index', '1');
+        $('.bg').css('display', 'none');
+        $('.bg').css('background', 'rgb(0, 0, 0)');
     });
 // При клике на товар:
     $('.tienda---link').click(function() {
         $('.tienda-sidebar').removeClass('active');
         $('.filtros-sidebar').addClass('active');
-        $('.page').css('background', 'rgb(0, 0, 0, .1)');
-        $('.goods__bodys').css('background', 'rgb(225, 225, 225, .9)');
-        $('.tienda-container').css('z-index', '-1');
     }); 
     $('.filtros-back').click(function() {
         $('.tienda-sidebar').addClass('active');
-        $('.page').css('background', 'rgb(0, 0, 0, .1)');
-        $('.goods__bodys').css('background', 'rgb(225, 225, 225, .9)');
-        $('.tienda-container').css('z-index', '-1');
     });
 
 // При клике на Revista:
@@ -109,8 +101,7 @@ $('.extra-class-hover').hover(function() {
     if($(window).width() < 991) {
         $('.menu__link').removeClass('active_menu');
         $('.tienda__list__extra .tienda__link').removeClass('link_after');
-    } 
-
+    }
     $('.ojos-link').hover(function() {
         $('._tabs-block2').addClass('_active');
     }, function() {
@@ -120,5 +111,23 @@ $('.extra-class-hover').hover(function() {
         $(this).addClass('_active');
     }, function() {
         $(this).removeClass('_active');
+    });
+// Функция для чекбоксов:
+    $('.sidebar-checkItem').click(function() {
+        $(this).find('.check-block').toggleClass('active');
+    });
+// Удалить выбранные фильтры:
+    $('.delete-filtros').click(function() {
+        $(this).parent().css('display', 'none');
+    });
+    $('.clear-all-btn').click(function() {
+        $('.checked-product').css('display', 'none');
+    });
+// Кнопка "Listo":
+    $('.listo-btn').click(function() {
+        $('.tienda-sidebar').removeClass('active');
+        $('.filtros-sidebar').removeClass('active');
+        $('.bg').css('display', 'none');
+        $('.bg').css('background', 'rgb(0, 0, 0)');
     });
 });

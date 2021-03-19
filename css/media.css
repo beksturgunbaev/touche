@@ -1841,11 +1841,16 @@
   @media (max-width: 479.98px) {
   
     .goods__bodys {
-      width: 131px;
+      width: 85%;
+      right: 0;
+      margin: -25px 0 0 0;
     }
     .card2__title {
       font-size: 14px;
       line-height: 16px;
+    }
+    .simple-rating_small {
+      top: 2px;
     }
   }
   @media screen and (max-width: 440px) {
