@@ -130,4 +130,16 @@ $('.extra-class-hover').hover(function() {
         $('.bg').css('display', 'none');
         $('.bg').css('background', 'rgb(0, 0, 0)');
     });
+// Страница Product. Функция для кнопок + и - :
+    var counter = 1;
+    $('.product-plus').click(function() {
+        counter ++;
+        $('.product-count').text(counter);
+    });
+    $('.product-minus').click(function() {
+        if(counter > 0) {
+            counter --;
+        }  
+        $('.product-count').text(counter);
+    });  
 });
