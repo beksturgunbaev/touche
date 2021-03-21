@@ -142,4 +142,21 @@ $('.extra-class-hover').hover(function() {
         }  
         $('.product-count').text(counter);
     });  
+// Функция для картинки продукта:
+    $('.first-img').click(function() {
+        $('.product-mini-img').removeClass('active');
+        $(this).addClass('active');
+        $('.big-product-img').fadeOut();
+        $('.big-product-img').hide();
+        $('.product-first-img').fadeIn();
+        $('.product-first-img').show();
+    });
+    $('.second-img').click(function() {
+        $('.product-mini-img').removeClass('active');
+        $(this).addClass('active');
+        $('.big-product-img').fadeOut();
+        $('.big-product-img').hide();
+        $('.product-second-img').fadeIn();
+        $('.product-second-img').show();
+    });
 });
