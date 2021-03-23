@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Revista</title>
+	<title>Artículo guardado</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -13,34 +13,7 @@
 </head>
 
 <body>
-	<div class="revista-sidebar">
-		<div class="revista-back">
-			<svg xmlns="http://www.w3.org/2000/svg" width="8" height="11" viewBox="0 0 8 15" fill="none">
-				<path opacity="0.3" d="M7.36426 1L1.0003 7.36396L7.36426 13.7279" stroke="black"/>
-			</svg>
-			<span>Revista</span>
-		</div>
-		<div class="sidebar-check">
-			<div class="revista-items">	
-				<div class="sidebar-checkbox">ver todo</div>
-			</div>
-			<div class="revista-items">	
-				<div class="sidebar-checkbox">MAKE UP</div>
-			</div>
-			<div class="revista-items">	
-				<div class="sidebar-checkbox">FASHION</div>
-			</div>
-			<div class="revista-items">	
-				<div class="sidebar-checkbox">CUERPO</div>
-			</div>
-			<div class="revista-items">	
-				<div class="sidebar-checkbox">PELO</div>
-			</div>
-			<div class="revista-items">	
-				<div class="sidebar-checkbox">LIFESTYLE</div>
-			</div>
-		</div>
-	</div>
+
 	<div id="toTop">
 		<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<circle cx="20" cy="20" r="19.5"></circle>
@@ -378,26 +351,35 @@
 		<main class="page">
 			<div class="tiendaaa">
 				<div class="tienda-nav">
-					<div class="revista-header">
-						SECCIONES
-						<div class="filtros-svg">
-							<svg width="8" height="11" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M0.364258 13.7285L6.72822 7.36456L0.364259 1.00059" stroke="black"/>
-							</svg>
+					<div class="nav-links saved-articles-links">
+						<div class="nav-link">
+							Inicio
+							<span><svg width="8" height="11" viewBox="0 0 8 15" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.364258 13.7285L6.72822 7.36456L0.364259 1.00059" stroke="black" />
+								</svg></span>
 						</div>
+						<div class="nav-link tienda-link-btn">
+							USUARIO
+							<span><svg width="8" height="11" viewBox="0 0 8 15" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.364258 13.7285L6.72822 7.36456L0.364259 1.00059" stroke="black" />
+								</svg></span>
+						</div>
+						<div class="nav-link">MIS artículos guardados</div>
 					</div>
 				</div>
 				<div class="revista-page">
 					<div class="bookmarks__content _container">
 						<div class="bookmarks__content__extra">
-							<article class="bookmarks__card card card-revista">
+							<article class="bookmarks__card card card-saved-articles">
 								<div class="card__image shadowDown">
 									<picture>
 										<img src="img/product/product1.png" alt="">
 									</picture>
 								</div>
 								<div class="card__items">
-									<a href="#" class="card__icon">
+									<a href="#" class="card__icon saved-article">
 										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
 											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
 										</svg>
@@ -409,7 +391,7 @@
 												<div class="icon-cont">
 													<div class="card__min">2 min</div>
 													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
+														<a href="#" class="card__iconsm saved-article">
 															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
 																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
 															</svg>
@@ -423,203 +405,14 @@
 									</div>
 								</div>
 							</article>
-							<article class="bookmarks__card card card-revista">
-								<div class="card__image card__image_1 shadowDown">
-									<picture>
-										<source srcset="img/product/01.webp" type="image/webp"><img src="img/product/01.jpg"
-											alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">MAKEUP</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title card__title_w lineAnim">MAKE UP: Lábios perfectos</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-											accusantium
-											doloremque</p>
-									</div>
-								</div>
-							</article>		
-							<article class="bookmarks__card card card-revista">
-								<div class="card__image shadowDown">
-									<picture>
-										<source srcset="img/product/02.webp" type="image/webp"><img src="img/product/02.jpg"
-											alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">FASHION</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title lineAnim">TENDENCIAS DE MODA EN 2021 (LOREM IPSUM)</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-									</div>
-								</div>
-							</article>
-							<article class="bookmarks__card card card-revista">
-								<div class="card__image shadowDown">
-									<picture>
-										<img src="img/product/product4.png" alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">CUERPO</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title lineAnim">DEPORTE: IDEAS, SUGERENCIAS, ALTERNATIVAS</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-									</div>
-								</div>
-							</article>
-							<article class="bookmarks__card card card-revista card-revista5">
-								<div class="card__image shadowDown">
-									<picture>
-										<img src="img/product/product5.png" alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">LIFESTYLE</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title lineAnim">beach time</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-									</div>
-								</div>
-							</article>
-							<article class="bookmarks__card card card-revista">
-								<div class="card__image shadowDown">
-									<picture>
-										<img src="img/product/03.jpg" alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">FASHION</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title lineAnim">LOREM IPSUM TRATATULI TRATATATUSHKI</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
-					<div class="revista-container">
-						<div class="revista-img">
-							<img class="revista-desc" src="img/product/revista-img.png" alt="">
-							<img class="revista-tablet" src="img/product/tablet.png" alt="">
-						</div>
-						<div class="revista-block">
-							<h3 class="revista-title">ROSE ABSOLUTE<br/>VITAL CREAM</h3>
-							<p class="revista-cost">
-								49,95€ <span> (99,90€/100ML)</span>
-							</p>
-							<div class="revista-btns">
-								<button class="revista-btn">AÑADIR A LA CESTA</button>
-								<button class="revista-btn">EXPLORAR LA TIENDA</button>
-							</div>
-						</div>
-					</div>
-					<div class="bookmarks__content _container">
-						<div class="bookmarks__content__extra">
-							<article class="bookmarks__card card card-revista">
+							<article class="bookmarks__card card card-saved-articles">
 								<div class="card__image shadowDown">
 									<picture>
 										<img src="img/product/product1.png" alt="">
 									</picture>
 								</div>
 								<div class="card__items">
-									<a href="#" class="card__icon">
+									<a href="#" class="card__icon saved-article">
 										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
 											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
 										</svg>
@@ -631,7 +424,7 @@
 												<div class="icon-cont">
 													<div class="card__min">2 min</div>
 													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
+														<a href="#" class="card__iconsm saved-article">
 															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
 																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
 															</svg>
@@ -645,84 +438,14 @@
 									</div>
 								</div>
 							</article>
-							<article class="bookmarks__card card card-revista">
-								<div class="card__image card__image_1 shadowDown">
-									<picture>
-										<source srcset="img/product/01.webp" type="image/webp"><img src="img/product/01.jpg"
-											alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">MAKEUP</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title card__title_w lineAnim">MAKE UP: Lábios perfectos</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-											accusantium
-											doloremque</p>
-									</div>
-								</div>
-							</article>		
-							<article class="bookmarks__card card card-revista">
+							<article class="bookmarks__card card card-saved-articles">
 								<div class="card__image shadowDown">
 									<picture>
-										<source srcset="img/product/02.webp" type="image/webp"><img src="img/product/02.jpg"
-											alt="">
+										<img src="img/product/product1.png" alt="">
 									</picture>
 								</div>
 								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">FASHION</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title lineAnim">TENDENCIAS DE MODA EN 2021 (LOREM IPSUM)</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-									</div>
-								</div>
-							</article>
-							<article class="bookmarks__card card card-revista">
-								<div class="card__image shadowDown">
-									<picture>
-										<img src="img/product/product4.png" alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
+									<a href="#" class="card__icon saved-article">
 										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
 											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
 										</svg>
@@ -734,82 +457,16 @@
 												<div class="icon-cont">
 													<div class="card__min">2 min</div>
 													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
+														<a href="#" class="card__iconsm saved-article">
 															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
+																<path opacity="0.1" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
 															</svg>
 														</a>
 													</div>
 												</div>
 											</div>
 										</div>
-										<a href="#" class="card__title lineAnim">DEPORTE: IDEAS, SUGERENCIAS, ALTERNATIVAS</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-									</div>
-								</div>
-							</article>
-							<article class="bookmarks__card card card-revista card-revista5">
-								<div class="card__image shadowDown">
-									<picture>
-										<img src="img/product/product5.png" alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">LIFESTYLE</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title lineAnim">beach time</a>
-										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-									</div>
-								</div>
-							</article>
-							<article class="bookmarks__card card card-revista">
-								<div class="card__image shadowDown">
-									<picture>
-										<img src="img/product/03.jpg" alt="">
-									</picture>
-								</div>
-								<div class="card__items">
-									<a href="#" class="card__icon">
-										<svg class="save-svg-tablet" width="22" height="32" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-										</svg>
-									</a>
-									<div class="card__item">
-										<div class="card__bodys">
-											<a href="#" class="card__body lineAnim">FASHION</a>
-											<div class="card__back">
-												<div class="icon-cont">
-													<div class="card__min">2 min</div>
-													<div class="save-icon-after">
-														<a href="#" class="card__iconsm">
-															<svg class="save-svg" width="13" height="15" viewBox="0 0 13 17" xmlns="http://www.w3.org/2000/svg">
-																<path opacity="0.6" d="M12 16L6.5 12.6667L1 16V1H12V16Z"></path>
-															</svg>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class="card__title lineAnim">LOREM IPSUM TRATATULI TRATATATUSHKI</a>
+										<a href="#" class="card__title lineAnim">AROMATERAPIA Y OTRAS MANERAS</a>
 										<p class="card__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
 									</div>
 								</div>

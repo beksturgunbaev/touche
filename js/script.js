@@ -84,7 +84,13 @@ $('.extra-class-hover').hover(function() {
     }); 
     $('.filtros-back').click(function() {
         $('.tienda-sidebar').addClass('active');
+        $('.filtros-sidebar').removeClass('active');
     });
+
+    $('.promo-link').click(function() {
+        $('.tienda-sidebar').removeClass('active');
+        $('.filtros-sidebar').addClass('active');
+    }); 
 
 // При клике на Revista:
     $('.revista-header').click(function() {
@@ -158,5 +164,45 @@ $('.extra-class-hover').hover(function() {
         $('.big-product-img').hide();
         $('.product-second-img').fadeIn();
         $('.product-second-img').show();
+    });
+// Функция для модалки:
+    $('.forgot-password').click(function() {
+        event.preventDefault();
+        $('.modal-recover-email').addClass('active');
+        $('body').css('overflow', 'hidden');
+    });
+    $('.close-modal').click(function() {
+        $('.modal-recover-email').removeClass('active');
+        $('body').css('overflow', 'auto');
+    });
+    $(".bg").click(function() {
+        $('.tienda-sidebar').removeClass('active');
+        $('.filtros-sidebar').removeClass('active');
+        $('.bg').css('display', 'none');
+        $('.bg').css('background', 'rgb(0, 0, 0)');
+        // $('.menu__body').removeClass('_active');
+        // $('.icon-menu').removeClass('_active');
+        // $('.icon-menu').click();
+    });
+// Переход на страницу MIS_DATOS.HTML:
+    $('.personal-btn').on('click', function() {
+        window.location = 'mis-datos.html';
+    });
+// При нажатии иконку назад в моб версии:
+    $('.tienda__arrowLeft').click(function() {
+        $('._tabs-block').removeClass('_active');
+    });
+// При клике на объем продукта:
+    $('.product-detail-ml-pointer::first-child').click(function() {
+        $('.product-detail-ml').removeClass('active');
+        $(this).addClass('active');
+        $('.product-detail-cost2').removeClass('active');
+        $('.product-detail-cost1').addClass('active');
+    });
+    $('.product-detail-ml-pointer::nth-child(2)').click(function() {
+        $('.product-detail-ml').removeClass('active');
+        $(this).addClass('active');
+        $('.product-detail-cost1').removeClass('active');
+        $('.product-detail-cost2').addClass('active');
     });
 });
