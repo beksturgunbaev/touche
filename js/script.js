@@ -175,15 +175,15 @@ $('.extra-class-hover').hover(function() {
         $('.modal-recover-email').removeClass('active');
         $('body').css('overflow', 'auto');
     });
-    $(".bg").click(function() {
-        $('.tienda-sidebar').removeClass('active');
-        $('.filtros-sidebar').removeClass('active');
-        $('.bg').css('display', 'none');
-        $('.bg').css('background', 'rgb(0, 0, 0)');
+    // $(".bg").click(function() {
+    //     $('.tienda-sidebar').removeClass('active');
+    //     $('.filtros-sidebar').removeClass('active');
+    //     $('.bg').css('display', 'none');
+    //     $('.bg').css('background', 'rgb(0, 0, 0)');
         // $('.menu__body').removeClass('_active');
         // $('.icon-menu').removeClass('_active');
         // $('.icon-menu').click();
-    });
+    // });
 // Переход на страницу MIS_DATOS.HTML:
     $('.personal-btn').on('click', function() {
         window.location = 'mis-datos.html';
@@ -204,5 +204,9 @@ $('.extra-class-hover').hover(function() {
         $(this).addClass('active');
         $('.product-detail-cost1').removeClass('active');
         $('.product-detail-cost2').addClass('active');
+    });
+// Прокрутить слайдер влево: 
+    $(".product-detail-img").on("swipeleft", function () {
+        alert('Hello');
     });
 });
