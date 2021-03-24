@@ -205,8 +205,33 @@ $('.extra-class-hover').hover(function() {
         $('.product-detail-cost1').removeClass('active');
         $('.product-detail-cost2').addClass('active');
     });
-// Прокрутить слайдер влево: 
-    $(".product-detail-img").on("swipeleft", function () {
-        alert('Hello');
+// Проверка инпутов:
+    // var value = $('.password-input').val();
+    $('.create-account-btn').click(function() {
+        if($('.password-input').val().length < 8) {
+            $('.password-input').addClass('error-txt');
+            $('.password-error').css('display', 'block');
+            return false;
+        }
+        else {
+            $('.password-input').removeClass('error-txt');
+            $('.password-error').css('display', 'none');
+        }
     });
-});
+// Проверка эмайл модалки:
+    $('.modal-btn').click(function() {
+        if($('.modal-input').val().length == '') {   
+            $('.modal-input').css('border-bottom', '1px solid rgb(255, 0, 0, .3)');
+            $('.email-error-modal').css('display', 'block');
+            $('.modal-vector').css('opacity', '0');
+            $('.modal-success').css('display', 'none');
+            return false;
+        }
+        else {
+            $('.modal-input').css('border-bottom', '1px solid rgb(0, 0, 0, .3)');
+            $('.email-error-modal').css('display', 'none');
+            $('.modal-vector').css('opacity', '.3');
+            $('.modal-success').css('display', 'block');
+        }
+    });
+}); 

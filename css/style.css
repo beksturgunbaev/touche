@@ -4073,6 +4073,43 @@ button.swiper-pagination-bullet {
           -ms-flex-align: start;
               align-items: flex-start;
 }
+.checkbox-container input {
+  background-color: transparent;
+}
+.password-input.error-txt {
+  border: 1px solid rgb(255, 0, 0, .3);
+  background-color: rgb(255, 0, 0, .1);
+  color: rgb(255, 0, 0, .5);
+}
+.password-error,
+.email-error-modal {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  padding-top: 7px;
+  text-transform: uppercase;
+  color: #FF0000;
+  opacity: 0.5;
+  display: none;
+}
+.email-error-modal {
+  text-align: left;
+}
+.modal-email-input {
+  position: relative;
+}
+.modal-vector {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  opacity: 0;
+  transition: .3s;
+}
+.modal-btn {
+  margin-top: 30px !important;
+}
 .login-btn{
   font-family: 'OpenSans';
   font-weight: 600;
@@ -4189,6 +4226,7 @@ button.swiper-pagination-bullet {
   font-family: 'OpenSans';
   font-weight: 400;
   font-size: 18px;
+  padding-right: 34px;
   line-height: 24px;
   text-transform: uppercase;
   color: #000000;
@@ -4196,7 +4234,6 @@ button.swiper-pagination-bullet {
   padding-bottom: 2px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   text-align: center;
-  margin-bottom: 30px;
 }
 .modal-input::placeholder {
   opacity: .5;

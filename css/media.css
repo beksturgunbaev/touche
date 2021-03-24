@@ -1641,6 +1641,9 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .modal-recover-email .modal-content {
+      padding: 50px 20px 30px;
+    }
     .tienda-container {
       background-image: url(../img/tienda2.png);
       min-height: 375px;
