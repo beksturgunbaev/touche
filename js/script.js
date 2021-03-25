@@ -234,4 +234,25 @@ $('.extra-class-hover').hover(function() {
             $('.modal-success').css('display', 'block');
         }
     });
+// Swipe slider
+    $(".big-product-img").on("dragstart", function() {
+        $('.product-mini-img').removeClass('active');
+        $(this).next().addClass('active');
+        $('.big-product-img').fadeOut();
+        $('.big-product-img').hide();
+        $(this).next().fadeIn();
+        $(this).next().show();
+        $('.product-mini-img').removeClass('active');
+        $('.product-mini-img').next().addClass('active');
+        if($(this).is(':last-child')) {
+            $('.product-mini-img').removeClass('active');
+            $(this).prev().addClass('active');
+            $('.big-product-img').fadeOut();
+            $('.big-product-img').hide();
+            $(this).prev().fadeIn();
+            $(this).prev().show();
+            $('.product-mini-img').removeClass('active');
+            $('.product-mini-img').prev().addClass('active');
+        }
+    });
 }); 
