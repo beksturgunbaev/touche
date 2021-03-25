@@ -12,14 +12,14 @@ $(document).ready(function() {
         	800
         );
     });
-// При клике на иконку Бургер меню:
-$('.icon-menu').toggle(function() {
-    $('.bg').css('display', 'block');
-    $('.bg').css('background', 'rgb(0, 0, 0, .2)');
-}, function() {
-    $('.bg').css('display', 'none');
-    $('.bg').css('background', 'rgb(0, 0, 0)');
-});
+// При клике на стрелочку назад (моб версия):
+    $('.revista__img').click(function() {
+        $(this).parent().parent().parent().parent().parent().removeClass('_active');
+    });
+    $('.tienda__img').click(function() {
+        $(this).parent().parent().parent().parent().parent().removeClass('_active');
+    });
+
 // При клике на иконку Войти:
 $('.head-user-icon').hover(function() {
     $('.bg').css('display', 'block');
@@ -57,7 +57,6 @@ $('.extra-class-hover').hover(function() {
     }, function() {
         $(this).removeClass('active');
     });
-    
 
 // При выборе фильтры:
     $('.tienda---link').toggle(function() {
@@ -70,12 +69,18 @@ $('.extra-class-hover').hover(function() {
         $('.tienda-sidebar').addClass('active');
         $('.bg').css('display', 'block');
         $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+        $('.icon-menu').addClass('no-click');
+        $('.search-mob').addClass('no-click');
+        $('.head-login-icon').addClass('no-click');
     }); 
     $('.tienda-back').click(function() {
         $('.tienda-sidebar').removeClass('active');
         $('.filtros-sidebar').removeClass('active');
         $('.bg').css('display', 'none');
         $('.bg').css('background', 'rgb(0, 0, 0)');
+        $('.icon-menu').removeClass('no-click');
+        $('.search-mob').removeClass('no-click');
+        $('.head-login-icon').removeClass('no-click');
     });
 // При клике на товар:
     $('.tienda---link').click(function() {
@@ -175,15 +180,38 @@ $('.extra-class-hover').hover(function() {
         $('.modal-recover-email').removeClass('active');
         $('body').css('overflow', 'auto');
     });
-    // $(".bg").click(function() {
-    //     $('.tienda-sidebar').removeClass('active');
-    //     $('.filtros-sidebar').removeClass('active');
-    //     $('.bg').css('display', 'none');
-    //     $('.bg').css('background', 'rgb(0, 0, 0)');
-        // $('.menu__body').removeClass('_active');
-        // $('.icon-menu').removeClass('_active');
-        // $('.icon-menu').click();
-    // });
+// При клике на иконку Бургер меню:
+    $('.icon-menu').toggle(function() {
+        $('.bg').css('display', 'block');
+        $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+    }, function() {
+        $('.bg').css('display', 'none');
+        $('.bg').css('background', 'rgb(0, 0, 0)');
+        $('.menu__body').removeClass('_active');
+        $('.icon-menu').removeClass('_active');
+    });
+    $('.icon-menu').hover(function() {
+        $('.bg').css('display', 'block');
+        $('.bg').css('background', 'rgb(0, 0, 0, .2)');
+    }, function() {
+        $('.bg').css('display', 'none');
+        $('.bg').css('background', 'rgb(0, 0, 0)');
+        $('.menu__body').removeClass('_active');
+        $('.icon-menu').removeClass('_active');
+    });
+
+// Клик на затемненное пространосво:
+    $(".bg").click(function() {
+        $('.tienda-sidebar').removeClass('active');
+        $('.filtros-sidebar').removeClass('active');
+        $('.bg').css('display', 'none');
+        $('.bg').css('background', 'rgb(0, 0, 0)');
+        $('.menu__body').removeClass('_active');
+        $('.icon-menu').removeClass('_active');
+        $('.icon-menu').removeClass('no-click');
+        $('.search-mob').removeClass('no-click');
+        $('.head-login-icon').removeClass('no-click');
+    });
 // Переход на страницу MIS_DATOS.HTML:
     $('.personal-btn').on('click', function() {
         window.location = 'mis-datos.html';
@@ -234,6 +262,16 @@ $('.extra-class-hover').hover(function() {
             $('.modal-success').css('display', 'block');
         }
     });
+// При нажатии на красные фильтры (цены):
+    $('.sidebar-red-menu1').click(function() {
+        $('.filtros-cost1').css('display', 'block');
+    });
+    $('.sidebar-red-menu2').click(function() {
+        $('.filtros-cost2').css('display', 'block');
+    });
+    $('.sidebar-red-menu3').click(function() {
+        $('.filtros-cost3').css('display', 'block');
+    });
 // Swipe slider
     $(".big-product-img").on("dragstart", function() {
         $('.product-mini-img').removeClass('active');
@@ -255,4 +293,9 @@ $('.extra-class-hover').hover(function() {
             $('.product-mini-img').prev().addClass('active');
         }
     });
+// Сделать header не кликабельным, когда открыто филтр:
+    if($('.tienda-sidebar').hasClass('active')) {
+        // $('.icon-menu').css('pointer-events', 'none');
+        alert('Hello');
+    }
 }); 

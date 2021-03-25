@@ -432,7 +432,7 @@
       display: none;
     }
     .product-last-info {
-      margin-top: 33px;
+      margin-top: 30px;
     }
     .art-title {
       padding: 0;
@@ -1002,7 +1002,7 @@
     }
     #d-flex {
       display: block;
-      padding: 0 10px 20px;
+      padding: 0 10px 36px;
     }
     .flex-right {
       width: 100%;
@@ -1128,13 +1128,13 @@
       margin-bottom: 7px;
     }
     .filtros-sidebar {
-      top: 44px;
+      top: 42px;
     }
     .revista-sidebar {
-      top: 44px;
+      top: 42px;
     }
     .tienda-sidebar {
-      top: 44px;
+      top: 42px;
     }
     .mob-search-btn {
       display: block;
@@ -1174,6 +1174,9 @@
     }
     .product-last-info-extra {
       margin-top: 0;
+    }
+    .product-detail-ml-pointer {
+      margin-top: 10px;
     }
   }
   @media screen and (max-width: 767px) {
@@ -1631,7 +1634,7 @@
       padding-bottom: 14px;
     }
     #d-flex {
-      padding: 60px 0 20px;
+      padding: 60px 0 52px;
     }
     #product-container .article-content {
       padding: 20px 0 0;
@@ -1641,6 +1644,9 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .tienda-sidebar {
+      top: 40px;
+    }
     .modal-recover-email .modal-content {
       padding: 50px 20px 30px;
     }
@@ -2031,11 +2037,11 @@
     }
     .filtros-sidebar {
       right: 0;
-      padding: 20px;
+      padding: 18px 20px;
     }
     .revista-sidebar {
       right: 0;
-      padding: 20px;
+      padding: 18px 20px;
     }
     .tienda-sidebar {
       right: 0;
