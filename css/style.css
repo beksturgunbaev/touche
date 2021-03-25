@@ -160,10 +160,6 @@ body {
   font-size: 14px;
 }
 
-body._lock {
-  overflow: hidden;
-}
-
 .wrapper {
   width: 100%;
   min-height: 100%;

@@ -190,15 +190,7 @@ $('.extra-class-hover').hover(function() {
         $('.menu__body').removeClass('_active');
         $('.icon-menu').removeClass('_active');
     });
-    $('.icon-menu').hover(function() {
-        $('.bg').css('display', 'block');
-        $('.bg').css('background', 'rgb(0, 0, 0, .2)');
-    }, function() {
-        $('.bg').css('display', 'none');
-        $('.bg').css('background', 'rgb(0, 0, 0)');
-        $('.menu__body').removeClass('_active');
-        $('.icon-menu').removeClass('_active');
-    });
+
 
 // Клик на затемненное пространосво:
     $(".bg").click(function() {
@@ -206,6 +198,8 @@ $('.extra-class-hover').hover(function() {
         $('.filtros-sidebar').removeClass('active');
         $('.bg').css('display', 'none');
         $('.bg').css('background', 'rgb(0, 0, 0)');
+        $('.menu__body').removeClass('_active');
+        $('.icon-menu').removeClass('_active');
         $('.menu__body').removeClass('_active');
         $('.icon-menu').removeClass('_active');
         $('.icon-menu').removeClass('no-click');
