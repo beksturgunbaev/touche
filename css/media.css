@@ -443,8 +443,15 @@
       max-width: 767px !important;
       text-align: center;
     }
+    .product__title {
+      font-size: 21px;
+      line-height: 24px;
+    }
   }
   @media screen and (max-width: 991px) {
+    .product-detail-info {
+      padding-left: 25px;
+    }
     .block {
       padding: 36px 0;
     }
@@ -473,6 +480,9 @@
       font-size: 15px;
       line-height: 24px;
       max-width: 576px;
+    }
+    #product--block {
+      padding-top: 0;
     }
   }
   @media (max-width: 991.98px) {
@@ -1178,6 +1188,9 @@
     .product-detail-ml-pointer {
       margin-top: 10px;
     }
+    .product-like-icon {
+      margin-top: 0;
+    }
   }
   @media screen and (max-width: 767px) {
     .modal-recover-email .modal-content {
@@ -1359,6 +1372,9 @@
     }
     .bookmarks__card:nth-child(2) {
       margin: 0 0 20px 0 !important;
+    }
+    #product--block {
+      padding-top: 16px;
     }
     .revista-page {
       padding-right: 0;
@@ -1644,6 +1660,10 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .personal-title {
+      font-size: 21px;
+      line-height: 24px;
+    }
     .tienda-sidebar {
       top: 40px;
     }
@@ -1687,8 +1707,7 @@
       padding: 20px 15px 50px;
     }
     .module-border-wrap {
-      padding: 4px;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
     .personal-area {
       padding: 21px 15px 60px;
@@ -1696,7 +1715,7 @@
     .personal-btn {
       font-size: 18px;
       line-height: 24px;
-      padding: 12px 30px;
+      padding: 16px 30px;
     }
     .modal-recover-email .modal-content {
       max-width: 100%;
@@ -2346,9 +2365,8 @@
     }
   }
   @supports (-webkit-appearance:none){
-  .link_after:after{background:url("../img/icons/arrow-right.png") 0 0 no-repeat}
+  .link_after:after{background:url("../img/icons/right.svg") 0 0 no-repeat}
   .card-big__min:after{background:url("../img/card/clock.png") 0 0/15px 15px no-repeat}
-  .card__min:after{background:url("../img/product/clock.png") 0 0/11px 11px no-repeat}
   }
   
    @media (min-width: 991.98px){

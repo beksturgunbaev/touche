@@ -229,14 +229,14 @@ $('.extra-class-hover').hover(function() {
     });
 // Проверка инпутов:
     // var value = $('.password-input').val();
-    $('.create-account-btn').click(function() {
-        if($('.password-input').val().length < 8) {
-            $('.password-input').addClass('error-txt');
+    $('.password-input').keyup(function() {
+        if($(this).val().length < 8) {
+            $(this).addClass('error-txt');
             $('.password-error').css('display', 'block');
             return false;
         }
         else {
-            $('.password-input').removeClass('error-txt');
+            $(this).removeClass('error-txt');
             $('.password-error').css('display', 'none');
         }
     });
@@ -266,6 +266,10 @@ $('.extra-class-hover').hover(function() {
     $('.sidebar-red-menu3').click(function() {
         $('.filtros-cost3').css('display', 'block');
     });
+// При клике на чекбоксы:
+    $('.checkbox-element').click(function() {
+        $(this).toggleClass('active');
+    });
 // Swipe slider
     $(".big-product-img").on("dragstart", function() {
         $('.product-mini-img').removeClass('active');
@@ -287,9 +291,8 @@ $('.extra-class-hover').hover(function() {
             $('.product-mini-img').prev().addClass('active');
         }
     });
-// Сделать header не кликабельным, когда открыто филтр:
-    if($('.tienda-sidebar').hasClass('active')) {
-        // $('.icon-menu').css('pointer-events', 'none');
-        alert('Hello');
-    }
+// Клик на сохраненные товары:
+    $('.saved-article').click(function() {
+        $(this).find('svg path').toggleClass('not-active');
+    });
 }); 
