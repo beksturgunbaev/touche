@@ -1491,15 +1491,15 @@
     }
     .card-revista:first-child .card__text {
       font-size: 14px;
-      width: 220px;
+      width: 100%;
     }
     .card-saved-articles .card__text {
       font-size: 14px;
-      width: 220px;
+      width: 100%;
     }
     .card-revista:nth-child(3n+4) .card__text {
       font-size: 14px;
-      width: 220px;
+      width: 100%;
     }
     .card-revista:nth-child(3n+3) {
       border-bottom: none;
