@@ -181,7 +181,9 @@ body {
 .wrapper._loaded {
   opacity: 1;
 }
-
+.wrapper-datos {
+  min-height: auto;
+}
 ._container {
   max-width: 1280px;
   margin: 0 auto;
@@ -4393,4 +4395,7 @@ button.swiper-pagination-bullet {
 }
 .saved-article .saved.not-active {
   fill: none;
+}
+.extraa {
+  margin-top: 16px;
 }

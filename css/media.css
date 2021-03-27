@@ -398,6 +398,9 @@
     .bookmarks__card {
       margin: 0px 15px 20px 15px;
     }
+    .art-line {
+      display: none;
+    }
   }
   @media screen and (max-width: 1200px) {
     .tienda-menu-cont {
@@ -1419,7 +1422,9 @@
     .card__bodys {
       height: 20px;
     }
-  
+    .card__bodys22 {
+      margin-bottom: 6px;
+    }
     .card__body {
       padding: 0px 18px 0px 0px;
       margin: 0px 0px 0px 0px;

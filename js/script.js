@@ -207,8 +207,14 @@ $('.extra-class-hover').hover(function() {
         $('.head-login-icon').removeClass('no-click');
     });
 // Переход на страницу MIS_DATOS.HTML:
-    $('.personal-btn').on('click', function() {
+    $('.personal-btn2').on('click', function() {
+        window.location = 'saved-articles.html';
+    });
+    $('.personal-btn3').on('click', function() {
         window.location = 'mis-datos.html';
+    });
+    $('.log-out-btn').on('click', function() {
+        window.location = 'login.html';
     });
 // При нажатии иконку назад в моб версии:
     $('.tienda__arrowLeft').click(function() {
