@@ -301,4 +301,12 @@ $('.extra-class-hover').hover(function() {
     $('.saved-article').click(function() {
         $(this).find('svg path').toggleClass('not-active');
     });
+// Клик на VER TODO в меню:
+    $('.tiendaLink').on('click', function() {
+        window.location = 'tienda.html';
+    });
+    
+    $('.revistaLink').on('click', function() {
+        window.location = 'revista.html';
+    });
 }); 

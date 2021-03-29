@@ -526,7 +526,9 @@
     }
   
     .link_after:after {
-      left: 280px;
+      left: auto;
+      right: 0;
+      width: 2%;
     }
   
     .revista {
@@ -568,6 +570,7 @@
     .tienda__list {
       margin: 0px 0px 0px 20px;
       text-align: left;
+      width: 100%;
     }
   
     .tienda__list.content-block._active,
@@ -1438,7 +1441,7 @@
       top: 3px;
     }
     .card__title {
-      max-width: 200px;
+      max-width: 100%;
       font-size: 14px;
       line-height: 18px;
       margin: 0px 0px 2px 0px;
@@ -1556,6 +1559,11 @@
     .card-saved-articles {
       padding-bottom: 20px;
     }
+    .revista-page .card__title {
+      font-size: 14px;
+      line-height: 18px;
+      max-width: 200px;
+    }
   }
   @media screen and (max-width: 700px) {
     .search-mob {
@@ -1665,6 +1673,10 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .link_after:after {
+      right: -10px;
+      width: 5%;
+    }
     .personal-title {
       font-size: 21px;
       line-height: 24px;
@@ -2190,6 +2202,10 @@
     .saved-articles-links .nav-link span svg {
       width: 6px !important;
       height: 9px !important;
+    }
+    .link_after:after {
+      right: -7px;
+      width: 5%;
     }
   }
   @media (max-width: 479.98px) {

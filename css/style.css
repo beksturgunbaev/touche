@@ -1670,7 +1670,7 @@ button.swiper-pagination-bullet {
 
 .tienda__list {
   margin: 0px 60px 0px 0px;
-  padding: 0px 30px 0px 0px;
+  padding: 0px 20px 0px 0px;
 }
 
 .tienda__list.content-block {
@@ -2174,7 +2174,7 @@ button.swiper-pagination-bullet {
 .card__iconsm {
   position: relative;
   top: 1px;
-  padding: 3px 0px 0px 13px;
+  padding: 3px 0px 0px 0;
   margin: 0px 0px 0px 12px;
 }
 .art--line {
@@ -2275,16 +2275,20 @@ button.swiper-pagination-bullet {
   color: #060000;
   margin: 0px 0px 8px 0px;
 }
-
+.revista-page .card__title {
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 100%;
+}
 .card__title_w {
   max-width: 207px;
 }
 
 .card__text {
   font-family: "OpenSans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 24px;
 }
 
 .goods {
