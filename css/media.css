@@ -1441,7 +1441,7 @@
       top: 3px;
     }
     .card__title {
-      max-width: 100%;
+      max-width: 200px;
       font-size: 14px;
       line-height: 18px;
       margin: 0px 0px 2px 0px;
@@ -1562,7 +1562,6 @@
     .revista-page .card__title {
       font-size: 14px;
       line-height: 18px;
-      max-width: 200px;
     }
   }
   @media screen and (max-width: 700px) {
@@ -1673,6 +1672,14 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .sssss .card2__image img {
+      width: 100%;
+      height: auto;
+    }
+    .card-big--extraa {
+      width: 100%;
+      height: auto;
+    }
     .link_after:after {
       right: -10px;
       width: 5%;
@@ -2262,6 +2269,7 @@
     .revista-container {
       padding: 60px 15px 80px;
     }
+
   }
   
   @media (max-width: 361px) {
@@ -2269,7 +2277,9 @@
       width: 88%;
       margin: 0;
     }
-  
+    .card__title {
+      max-width: 190px;
+    }
     .custom__link_icon {
       padding: 0;
     }
@@ -2355,6 +2365,9 @@
   }
   
   @media (max-width: 340px) {
+    .card__title {
+      max-width: 175px;
+    }
     .images__img img {
       height: 90px;
     }
