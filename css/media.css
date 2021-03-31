@@ -1007,6 +1007,13 @@
     }
   }
   @media screen and (max-width: 991px) {
+    .rev--cont--title {
+      font-size: 21px;
+      line-height: 24px;
+    }
+    .rev--cont--txt {
+      font-size: 21px;
+    }
     .log-out-btn {
       margin: 50px auto 0;
     }
@@ -1148,6 +1155,7 @@
     }
     .revista-sidebar {
       top: 42px;
+      padding: 16px 20px 20px;
     }
     .tienda-sidebar {
       top: 42px;
@@ -1441,7 +1449,8 @@
       top: 3px;
     }
     .card__title {
-      max-width: 200px;
+      padding-right: 27px !important;
+      max-width: 100% !important;
       font-size: 14px;
       line-height: 18px;
       margin: 0px 0px 2px 0px;
@@ -1672,6 +1681,16 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .rev--cont {
+      max-width: 290px;
+    }
+    .rev--cont--title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .rev--cont--txt {
+      font-size: 24px;
+    }
     .sssss .card2__image img {
       width: 100%;
       height: auto;

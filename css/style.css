@@ -1536,7 +1536,7 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0s;
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
-  padding: 10px 34px;
+  padding: 10px 42px;
 }
 
 .tienda__img {
@@ -3037,7 +3037,7 @@ button.swiper-pagination-bullet {
   left: auto;
   z-index: -1;
   background-color: #fff;
-  padding: 16px 20px 20px 20px;
+  padding: 16px 20px 20px 42px;
   visibility: hidden;
   transition: .5s;
   opacity: 0;
@@ -4402,4 +4402,31 @@ button.swiper-pagination-bullet {
 }
 .extraa {
   margin-top: 16px;
+}
+.rev--cont {
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 34px 20px;
+  text-align: center;
+}
+.rev--cont--title {
+  font-family: 'Termina';
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #000;
+}
+.rev--cont--title span {
+  font-family: 'Termina';
+  font-weight: 700;
+}
+.rev--cont--txt {
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-size: 24px;
+  padding-top: 12px;
+  line-height: 36px;
+}
+.rev-borders {
+  padding: 0 !important;
 }
